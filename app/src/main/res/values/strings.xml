@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ContactDetails</string>
+    <string name="phone">Телефон</string>
+    <string name="address">Адрес</string>
+    <string name="email">E-mail</string>
+    <string name="standard_icon">Стандартная иконка</string>
+    <string name="favorite_star">Избранный контакт</string>
+</resources>
