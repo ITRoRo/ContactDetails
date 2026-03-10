@@ -4,16 +4,10 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.contactdetails.composable.ContactDetails
 import com.example.contactdetails.data.Contact
-import com.example.contactdetails.ui.theme.ContactDetailsTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -34,6 +28,7 @@ class MainActivity : ComponentActivity() {
             )
         }
     }
+
 
     @Preview(name = "Favorite without photo", showSystemUi = true)
     @Composable

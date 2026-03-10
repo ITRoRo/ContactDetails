@@ -7,4 +7,5 @@ data class Contact(val name: String,
                    val isFavorite: Boolean = false,
                    val phone: String,
                    val address: String,
-                   val email: String? = null,)
+                   val email: String? = null,
+    )

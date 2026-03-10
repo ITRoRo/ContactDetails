@@ -21,6 +21,7 @@ import com.example.contactdetails.R
 import com.example.contactdetails.data.Contact
 
 
+
 @Composable
 fun ContactPhoto(contact: Contact) {
     if (contact.imageRes != null) {

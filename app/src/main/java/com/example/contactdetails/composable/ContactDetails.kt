@@ -21,6 +21,7 @@ import androidx.compose.ui.unit.dp
 import com.example.contactdetails.R
 import com.example.contactdetails.data.Contact
 
+
 @Composable
 fun ContactDetails(contact: Contact) {
     Column(
